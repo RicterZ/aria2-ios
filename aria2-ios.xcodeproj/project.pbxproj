@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BC4C65A7CFEB2A9ADDAF2B8 /* Pods_aria2_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0731404F189AA04C421575 /* Pods_aria2_iosTests.framework */; };
+		A0D3D923C46B0D9F727ED716 /* Pods_aria2_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B734E0E22ACACF1C5F07DDC5 /* Pods_aria2_iosUITests.framework */; };
+		B523DBBD1E52022C007D8F84 /* Aria2SDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523DBBC1E52022C007D8F84 /* Aria2SDK.swift */; };
+		B530A7701E49FBC200FA8C4A /* Pods_aria2_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4DC0EF24831447949A0D5EA /* Pods_aria2_ios.framework */; };
 		B549BE8E1E44E3EE006C3D64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B549BE8D1E44E3EE006C3D64 /* AppDelegate.swift */; };
 		B549BE901E44E3EE006C3D64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B549BE8F1E44E3EE006C3D64 /* ViewController.swift */; };
 		B549BE931E44E3EE006C3D64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B549BE911E44E3EE006C3D64 /* Main.storyboard */; };
@@ -14,6 +18,7 @@
 		B549BE981E44E3EE006C3D64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B549BE961E44E3EE006C3D64 /* LaunchScreen.storyboard */; };
 		B549BEA31E44E3EE006C3D64 /* aria2_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B549BEA21E44E3EE006C3D64 /* aria2_iosTests.swift */; };
 		B549BEAE1E44E3EE006C3D64 /* aria2_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B549BEAD1E44E3EE006C3D64 /* aria2_iosUITests.swift */; };
+		B549BEBE1E4592FA006C3D64 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B549BEBD1E4592FA006C3D64 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		345FEDBDB183E5DD01BF335B /* Pods-aria2-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aria2-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aria2-ios/Pods-aria2-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		37BF64B740A1DC16708B4A00 /* Pods-aria2-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aria2-iosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aria2-iosTests/Pods-aria2-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3995A087B23C767753792339 /* Pods-aria2-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aria2-iosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aria2-iosUITests/Pods-aria2-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DDDC180D8E69DBCBCD7275E /* Pods-aria2-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aria2-iosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-aria2-iosTests/Pods-aria2-iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A0731404F189AA04C421575 /* Pods_aria2_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aria2_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7E77AAECF0EE2463AA27DF /* Pods-aria2-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aria2-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-aria2-ios/Pods-aria2-ios.release.xcconfig"; sourceTree = "<group>"; };
+		B4DC0EF24831447949A0D5EA /* Pods_aria2_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aria2_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B523DBBC1E52022C007D8F84 /* Aria2SDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aria2SDK.swift; sourceTree = "<group>"; };
+		B52A13031E49FC9C00880BE4 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
+		B52A13051E49FC9F00880BE4 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "Pods/../build/Debug-iphoneos/Realm/Realm.framework"; sourceTree = "<group>"; };
 		B549BE8A1E44E3EE006C3D64 /* aria2-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aria2-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B549BE8D1E44E3EE006C3D64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B549BE8F1E44E3EE006C3D64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,9 @@
 		B549BEA91E44E3EE006C3D64 /* aria2-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aria2-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B549BEAD1E44E3EE006C3D64 /* aria2_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aria2_iosUITests.swift; sourceTree = "<group>"; };
 		B549BEAF1E44E3EE006C3D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B549BEBD1E4592FA006C3D64 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B734E0E22ACACF1C5F07DDC5 /* Pods_aria2_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aria2_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC73A4C687ACBBD2210B2BBC /* Pods-aria2-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aria2-iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-aria2-iosUITests/Pods-aria2-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B530A7701E49FBC200FA8C4A /* Pods_aria2_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC4C65A7CFEB2A9ADDAF2B8 /* Pods_aria2_iosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +88,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0D3D923C46B0D9F727ED716 /* Pods_aria2_iosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AEE45675B405A24ACAFD5FC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B52A13051E49FC9F00880BE4 /* Realm.framework */,
+				B52A13031E49FC9C00880BE4 /* AFNetworking.framework */,
+				B4DC0EF24831447949A0D5EA /* Pods_aria2_ios.framework */,
+				9A0731404F189AA04C421575 /* Pods_aria2_iosTests.framework */,
+				B734E0E22ACACF1C5F07DDC5 /* Pods_aria2_iosUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B549BE811E44E3ED006C3D64 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +114,8 @@
 				B549BEA11E44E3EE006C3D64 /* aria2-iosTests */,
 				B549BEAC1E44E3EE006C3D64 /* aria2-iosUITests */,
 				B549BE8B1E44E3EE006C3D64 /* Products */,
+				F7EDBC8A144D8ECB04C7BCFD /* Pods */,
+				AEE45675B405A24ACAFD5FC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +138,8 @@
 				B549BE941E44E3EE006C3D64 /* Assets.xcassets */,
 				B549BE961E44E3EE006C3D64 /* LaunchScreen.storyboard */,
 				B549BE991E44E3EE006C3D64 /* Info.plist */,
+				B549BEBD1E4592FA006C3D64 /* Models.swift */,
+				B523DBBC1E52022C007D8F84 /* Aria2SDK.swift */,
 			);
 			path = "aria2-ios";
 			sourceTree = "<group>";
@@ -125,6 +162,19 @@
 			path = "aria2-iosUITests";
 			sourceTree = "<group>";
 		};
+		F7EDBC8A144D8ECB04C7BCFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				345FEDBDB183E5DD01BF335B /* Pods-aria2-ios.debug.xcconfig */,
+				AB7E77AAECF0EE2463AA27DF /* Pods-aria2-ios.release.xcconfig */,
+				37BF64B740A1DC16708B4A00 /* Pods-aria2-iosTests.debug.xcconfig */,
+				5DDDC180D8E69DBCBCD7275E /* Pods-aria2-iosTests.release.xcconfig */,
+				3995A087B23C767753792339 /* Pods-aria2-iosUITests.debug.xcconfig */,
+				CC73A4C687ACBBD2210B2BBC /* Pods-aria2-iosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B549BEB21E44E3EE006C3D64 /* Build configuration list for PBXNativeTarget "aria2-ios" */;
 			buildPhases = (
+				64ADF835F7A31E0324D90F1B /* [CP] Check Pods Manifest.lock */,
 				B549BE861E44E3EE006C3D64 /* Sources */,
 				B549BE871E44E3EE006C3D64 /* Frameworks */,
 				B549BE881E44E3EE006C3D64 /* Resources */,
+				BD551939FF896308C3DF8FDE /* [CP] Embed Pods Frameworks */,
+				856064F8E0158376C2887ACA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B549BEB51E44E3EE006C3D64 /* Build configuration list for PBXNativeTarget "aria2-iosTests" */;
 			buildPhases = (
+				07AFFAF4AE85316A675E51BD /* [CP] Check Pods Manifest.lock */,
 				B549BE9A1E44E3EE006C3D64 /* Sources */,
 				B549BE9B1E44E3EE006C3D64 /* Frameworks */,
 				B549BE9C1E44E3EE006C3D64 /* Resources */,
+				AB033661E241F1B099E1B9BC /* [CP] Embed Pods Frameworks */,
+				08160A5786634AF21E2D3639 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B549BEB81E44E3EE006C3D64 /* Build configuration list for PBXNativeTarget "aria2-iosUITests" */;
 			buildPhases = (
+				64DAA7ECE4B36944EC650CC8 /* [CP] Check Pods Manifest.lock */,
 				B549BEA51E44E3EE006C3D64 /* Sources */,
 				B549BEA61E44E3EE006C3D64 /* Frameworks */,
 				B549BEA71E44E3EE006C3D64 /* Resources */,
+				04E3E1131ACC2461159B6D2B /* [CP] Embed Pods Frameworks */,
+				34E10C7CEDAFD34971D3048C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +316,152 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04E3E1131ACC2461159B6D2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aria2-iosUITests/Pods-aria2-iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		07AFFAF4AE85316A675E51BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		08160A5786634AF21E2D3639 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aria2-iosTests/Pods-aria2-iosTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34E10C7CEDAFD34971D3048C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aria2-iosUITests/Pods-aria2-iosUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64ADF835F7A31E0324D90F1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		64DAA7ECE4B36944EC650CC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		856064F8E0158376C2887ACA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aria2-ios/Pods-aria2-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB033661E241F1B099E1B9BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aria2-iosTests/Pods-aria2-iosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD551939FF896308C3DF8FDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aria2-ios/Pods-aria2-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B549BE861E44E3EE006C3D64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B549BE901E44E3EE006C3D64 /* ViewController.swift in Sources */,
+				B549BEBE1E4592FA006C3D64 /* Models.swift in Sources */,
+				B523DBBD1E52022C007D8F84 /* Aria2SDK.swift in Sources */,
 				B549BE8E1E44E3EE006C3D64 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,9 +612,16 @@
 		};
 		B549BEB31E44E3EE006C3D64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345FEDBDB183E5DD01BF335B /* Pods-aria2-ios.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X5767KXUH8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Realm",
+				);
 				INFOPLIST_FILE = "aria2-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ricterz.aria2-ios";
@@ -426,9 +632,16 @@
 		};
 		B549BEB41E44E3EE006C3D64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB7E77AAECF0EE2463AA27DF /* Pods-aria2-ios.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X5767KXUH8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Realm",
+				);
 				INFOPLIST_FILE = "aria2-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ricterz.aria2-ios";
@@ -439,6 +652,7 @@
 		};
 		B549BEB61E44E3EE006C3D64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37BF64B740A1DC16708B4A00 /* Pods-aria2-iosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +668,7 @@
 		};
 		B549BEB71E44E3EE006C3D64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DDDC180D8E69DBCBCD7275E /* Pods-aria2-iosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +684,7 @@
 		};
 		B549BEB91E44E3EE006C3D64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3995A087B23C767753792339 /* Pods-aria2-iosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = X5767KXUH8;
@@ -483,6 +699,7 @@
 		};
 		B549BEBA1E44E3EE006C3D64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC73A4C687ACBBD2210B2BBC /* Pods-aria2-iosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = X5767KXUH8;
@@ -514,6 +731,7 @@
 				B549BEB41E44E3EE006C3D64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B549BEB51E44E3EE006C3D64 /* Build configuration list for PBXNativeTarget "aria2-iosTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +740,7 @@
 				B549BEB71E44E3EE006C3D64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B549BEB81E44E3EE006C3D64 /* Build configuration list for PBXNativeTarget "aria2-iosUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +749,7 @@
 				B549BEBA1E44E3EE006C3D64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
